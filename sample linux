@@ -1,0 +1,21 @@
+ls
+mkdir wdos
+ls
+cd wdos
+mkdir linux
+cd linux
+cd ~ (change to the home of the directory you are in)
+cd wdos
+mkdir week2
+cd week2
+< -- touch -- >
+< -- man touch (create new empty file) - not working right now -- >
+touch testfile.txt
+ls
+echo "I like inux"
+echo "Im ok" > like.txt
+ls
+echo "Im not ok" > like2.txt
+ls
+echo "Im beyond ok" > like3.txt
+ls
