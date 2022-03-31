@@ -30,7 +30,46 @@ cd ..
 ls -l favourite
 cat favourite/food.txt
 rm favourite/food.txt
-ls
+ls -l favourite
 rm favourite/colour.txt
+ls -l favourite
 ls
-rm -rf favourie
+< -- rm -rf favourie -- >
+rmdir favourite (remove directory)
+< -- rmdir -r favourite (to delete if folder not empty) -- >
+< -- find <url> -name *.jpg (all jpg file) -- >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
