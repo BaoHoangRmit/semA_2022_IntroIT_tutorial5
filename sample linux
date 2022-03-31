@@ -18,4 +18,19 @@ ls
 echo "Im not ok" > like2.txt
 ls
 echo "Im beyond ok" > like3.txt
+ls -l
+cat like3.txt
+echo "bao" > name.txt
+cat name.txt
+mkdir favourite
+cd favourite
+echo "blue" > colour.txt
+echo "bun" > food.txt
+cd ..
+ls -l favourite
+cat favourite/food.txt
+rm favourite/food.txt
 ls
+rm favourite/colour.txt
+ls
+rm -rf favourie
